@@ -1,0 +1,194 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+  margin:0;
+}
+
+/* card 1 */
+main{
+    display:flex;
+    width:60%;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+    
+}
+
+h2{ 
+    text-align: left;
+    padding-bottom: 1em;
+    font-family: 'Big Shoulders Display', cursive;
+  }
+  
+  
+  p{
+  padding-bottom: 1em;
+  line-height: 1.5rem;
+  
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  
+  
+  }
+  
+
+.card1 {
+    
+    background-color: hsl(31, 77%, 52%);
+    padding: 1em;
+    color:  hsl(0, 0%, 95%);
+    border-radius: 10px 0px 0px 10px;
+    
+    
+    }
+.card1 p{
+    line-height:25px;
+}
+
+.card1 button{
+   font-family: 'Lexend Deca', sans-serif;
+    
+    padding: 1px;
+    
+    color:  hsl(0, 0%, 95%);
+    background-color:  hsl(31, 77%, 52%, 1);
+    border: 2px solid hsl(0, 0%, 95%); 
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.card1 button:hover{
+    color:   hsl(31, 77%, 52%, 1);
+    background-color:  hsl(0, 0%, 95%);
+    border-color:  hsl(31, 77%, 52%, 1);
+}
+
+
+/* card 2 */
+.card2 {
+    
+    background-color: hsl(184, 100%, 22%);
+    padding: 1.5em;
+    color:  hsl(0, 0%, 95%);
+    /* border-radius: 10px 10px 10px 10px; */
+    }
+
+
+.card2 button{
+   font-family: 'Lexend Deca', sans-serif;
+    
+    padding: 1px;
+    
+    color:  hsl(0, 0%, 95%);
+    background-color:  hsl(184, 100%, 22%, 0);
+    border: 2px solid hsl(0, 0%, 95%); 
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.card2 button:hover{
+    color:   hsl(31, 77%, 52%, 1);
+    background-color:  hsl(0, 0%, 95%);
+    border-color:  hsl(31, 77%, 52%, 1);
+}
+
+
+
+/* card 3 */
+.card3 {
+    
+    background-color: hsl(179, 100%, 13%);
+    padding: 1em;
+    color:  hsl(0, 0%, 95%);
+    border-radius: 0px 10px 10px 0px;
+    }
+
+
+.card3 button{
+   font-family: 'Lexend Deca', sans-serif;
+    
+    padding: 1px;
+    
+    color:  hsl(0, 0%, 95%);
+    background-color:  hsl(179, 100%, 13%, 0);
+    border: 2px solid hsl(0, 0%, 95%); 
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.card3 button:hover{
+    color:   hsl(179, 100%, 13%);
+    background-color:  hsl(0, 0%, 95%);
+    border-color: hsl(179, 100%, 13%);
+}
+.card3 p{
+    line-height: 25px;;
+}
+
+
+
+
+/* Responsiveness */
+@media screen and (max-width: 1440px) {
+    main{
+        display: flex;
+        
+    }
+    .card2 p{
+        line-height: 21px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    main{
+        display: flex;
+        
+    }
+    .card2 p{
+        line-height: 22.3px;
+    }
+    .card1 p{
+        line-height: 21.8px;
+    }
+    .card3 p{
+        line-height: 24.5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 425px) {
+    main{
+        display:block;
+    }
+    .card1{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card2{
+        border-radius: 0px;
+    }
+    .card3{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 325px) {
+    main{
+        display:block;
+    }
+    .card1{
+        border-radius: 10px 10px 0px 0px;
+    }
+    .card2{
+        border-radius: 0px;
+    }
+    .card3{
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
